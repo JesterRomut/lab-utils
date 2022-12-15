@@ -1,4 +1,4 @@
-package org.spongepowered.example;
+package lab.jesterromut.labutils;
 
 import com.google.inject.Inject;
 import net.kyori.adventure.identity.Identity;

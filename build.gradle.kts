@@ -18,14 +18,14 @@ repositories {
 
 sponge {
     apiVersion("8.1.0")
-    license("CHANGEME")
+    license("GNU GPLv3")
     loader {
         name(PluginLoaders.JAVA_PLAIN)
         version("1.0")
     }
-    plugin("example") {
-        displayName("Example")
-        entrypoint("org.spongepowered.example.Example")
+    plugin("ArsenalLabUtils") {
+        displayName("LabUtils")
+        entrypoint("lab.jesterromut.labutils.Main")
         description("Just testing things...")
         links {
             homepage("https://spongepowered.org")
