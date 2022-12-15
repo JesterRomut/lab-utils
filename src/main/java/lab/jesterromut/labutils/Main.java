@@ -25,14 +25,14 @@ import org.spongepowered.plugin.builtin.jvm.Plugin;
  *
  * <p>All methods are optional -- some common event registrations are included as a jumping-off point.</p>
  */
-@Plugin("example")
-public class Example {
+@Plugin("sirenidae-lab-utils")
+public class Main {
 
     private final PluginContainer container;
     private final Logger logger;
 
     @Inject
-    Example(final PluginContainer container, final Logger logger) {
+    Main(final PluginContainer container, final Logger logger) {
         this.container = container;
         this.logger = logger;
     }
